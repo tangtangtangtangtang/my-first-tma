@@ -3,7 +3,7 @@ import webapp from '@twa-dev/sdk'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count] = useState(0)
 
   return (
     <>
